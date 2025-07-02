@@ -68,7 +68,7 @@ pip install -r requirements.txt
 
 ### 2. Set OpenAI API Key :
 
-setx OPENAI_API_KEY "your-openai-api-key" (the key is set globally) or set the key in local environment: $env:OPENAI_API_KEY = "openai-api-key"
+```setx OPENAI_API_KEY "your-openai-api-key" ``` (the key is set globally) or Set the key in local environment: ```$env:OPENAI_API_KEY = "openai-api-key"```
 
 ### 3. Run Django Server:
 
