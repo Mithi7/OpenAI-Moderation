@@ -62,16 +62,15 @@ project_root/
 
 ## How to Run the Project
 
-### 1. Install Dependencies
+### 1. Install Dependencies:
 
 pip install -r requirements.txt
 
-### 2. Set OpenAI API Key (PowerShell / CMD)
+### 2. Set OpenAI API Key :
 
+setx OPENAI_API_KEY "your-openai-api-key" (the key is set globally) or set the key in local environment: $env:OPENAI_API_KEY = "openai-api-key"
 
-setx OPENAI_API_KEY "your-openai-api-key"
-
-### 3. Run Django Server
+### 3. Run Django Server:
 
 python manage.py runserver
 
